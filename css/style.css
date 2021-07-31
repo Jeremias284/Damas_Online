@@ -108,12 +108,12 @@ div.Contenedor {
   
    /* CASILLAS DEL TABLERO */
   
-div.Fila {
+div.fila {
     display: flex;
     flex-direction: row;
 }
-  
-.casillasNegras{
+
+.casillaNegra{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,7 +122,7 @@ div.Fila {
     background-color:#000000  ;
 }
   
-.casillasBlancas{
+.casillaBlanca{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +130,25 @@ div.Fila {
     height: 5vw;
     background-color: #FCFAF9;
 }
-  
+.fichaRoja{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #e72e2e;
+    box-shadow:  0 0 7px #B2945B;
+	border-color:#B2945B ;
+    cursor: pointer;
+}
+
+.fichaAzul{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #271db8;
+    box-shadow: 0 0 7px #558564;
+	border-color:#558564 ;
+    cursor: pointer;
+}
 /*CONTENEDOR DE LOS BOTONES */
    
 .contenedorBotones{
